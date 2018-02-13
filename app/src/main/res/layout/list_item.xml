@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card_view"
+    app:cardCornerRadius="2dp"
+    android:layout_marginBottom="10dp">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        tools:showIn="@layout/dialog_layout">
+
+
+        <ImageView
+            android:id="@+id/icon_img"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/app_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/icon_img"
+            android:text="WhatsApp"
+            android:textColor="#262626" />
+
+        <TextView
+            android:id="@+id/app_package_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/app_name_tv"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@id/icon_img"
+            android:text="com.whatsapp"
+            android:textColor="#83807e" />
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+            
+        

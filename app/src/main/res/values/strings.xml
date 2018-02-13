@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">QWM</string>
+    <string name="app_info">Quick WhatsApp Message (QWM) \nhelps you to send a WhatsApp Message to any number you want without adding it in Your Contacts</string>
+    <string name="developer_title_tv">Developer</string>
+    <string name="developer_name_tv">AbdulAlim Rajjoub(Devlomi)</string>
+    <string name="website_title_tv">Website</string>
+    <string name="more_apps_tv">More Apps</string>
+    <string name="rate_app_title_tv">Rate App</string>
+    <string name="rate_app_tv">Give this App a 5 Stars Rate :)</string>
+    <string name="pray_for_syria_title_tv">Pray For Syria</string>
+    <string name="pray_for_syria_text">You Can Donate Too!</string>
+    <string name="app_version_title">App Version</string>
+    <string name="version_number">1.1</string>
+    <string name="about_app">About App</string>
+</resources>

@@ -1,0 +1,228 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#373332"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/about_app_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_app"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/app_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_info"
+                android:textColor="#e1e1e1"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/developer_lo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/developer_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/developer_title_tv"
+                android:textColor="#535353" />
+
+            <TextView
+                android:id="@+id/developer_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/developer_name_tv"
+                android:textColor="#7C7C7C"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:background="#e1e1e1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/website_lo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/website_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/website_title_tv"
+                android:textColor="#535353" />
+
+            <TextView
+                android:id="@+id/website_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="www.Devlomi.com"
+                android:textColor="#7C7C7C"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:background="#e1e1e1" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/more_apps_lo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/more_apps_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/more_apps_tv"
+                android:textColor="#535353" />
+
+            <TextView
+                android:id="@+id/more_apps_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/more_apps_tv"
+                android:textColor="#7C7C7C"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:background="#e1e1e1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rate_app_lo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/rate_app_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rate_app_title_tv"
+                android:textColor="#535353" />
+
+            <TextView
+                android:id="@+id/rate_app_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rate_app_tv"
+                android:textColor="#7C7C7C"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:background="#e1e1e1" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/prayfs_lo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/prayfs_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pray_for_syria_title_tv"
+                android:textColor="#535353" />
+
+            <TextView
+                android:id="@+id/prayfs_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pray_for_syria_text"
+                android:textColor="#7C7C7C"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:background="#e1e1e1" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp"
+
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/app_ver_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_version_title"
+                android:textColor="#535353" />
+
+            <TextView
+                android:id="@+id/app_ver_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/version_number"
+                android:textColor="#7C7C7C"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:background="#e1e1e1" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
